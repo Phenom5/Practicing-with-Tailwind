@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/output.css">
+    <title>Testing</title>
+</head>
+<body class="text-gray-700">
+
+    <main class="flex container justify-center align-middle h-screen">
+        <div class="w-full lg:w-6/12 md:w-full flex justify-center items-center">
+            <form action="submit" class="w-90 lg:w-2/3 h-max p-8 block align-middle justify-center my-4 md:border-2 md:rounded-md lg:border-2 lg:rounded-md">
+                <div>
+                    <div class="py-6">
+                        <h2 class="text-3xl text-blue-500 p-2 font-medium">Sign in</h2>
+                        <h4 class="p-2">Don't have an acccount? <a href="#" class="font-semibold text-blue-500">Create one</a> here.</h4>
+                    </div>
+                </div>
+
+                <div class="p-2">
+                    <div class="py-3">
+                        <label for="email">Email address</label>
+                    </div> 
+                    <div class="border-2 rounded-md p-3">
+                        <input type="email" id="email" name="email" placeholder="Enter email address" class="focus:outline-none">
+                    </div>
+                </div>
+
+                <div class="p-2">
+                    <div class="py-3">
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="border-2 rounded-md p-3">
+                        <input type="password" id="password" name="password" placeholder="Choose password" class="focus:outline-none">
+                    </div>
+                </div>
+
+                <div class="p-3 my-8 block justify-center">
+                    <button type="submit" class="w-full bg-blue-500 p-3 rounded-md text-white">Sign in</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
